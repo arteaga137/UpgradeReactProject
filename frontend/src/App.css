@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Merriweather", serif; /* Close to what HBR uses, ensure you include the font via HTML link or CSS @import */
+  color: #333; /* Dark gray for primary text for readability */
+  background-color: #f4f4f4; /* Light background */
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif; /* A clean, modern sans-serif font */
+  margin-bottom: 1rem;
+  color: #021d49; /* Dark blue used for headings */
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #007bff; /* A bright blue color for links */
+  text-decoration: none; /* Removes underline from links */
+}
+
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding: 0 15px;
+}
+
+/* Navigation styles */
+.navbar {
+  background-color: #021d49; /* Dark blue background for navbar */
+  color: #fff;
+  padding: 1rem;
+}
+
+.navbar a {
+  color: #fff;
+  margin-left: 1rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+/* Button base styles */
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+.button:focus {
+  background-color: #0056b3; /* Darker shade of blue for hover/focus states */
+  outline: none; /* Removes the outline on focus to maintain the design */
+}
+
+.register-button {
+  background-color: #28a745; /* A green background for the register button, for distinction */
+}
+
+.register-button:hover,
+.register-button:focus {
+  background-color: #218838; /* Darker green on hover/focus */
+}
